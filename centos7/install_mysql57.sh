@@ -6,6 +6,6 @@ sudo rpm -ivh mysql57-community-release-el7-7.noarch.rpm
 
 rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 
-sudo yum install mysql-server
+sudo yum -y install mysql-server
 
 systemctl status mysqld
